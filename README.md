@@ -1,5 +1,9 @@
 # Marvel
 
+git clone project
+npm i or npm install 
+ng serve
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
 
 ## Development server
