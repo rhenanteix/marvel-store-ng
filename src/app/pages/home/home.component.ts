@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     let data = localStorage.getItem("comics");
     this.comicContent = JSON.parse(data);
+    console.log(data, 'teste');
     if (this.comicContent == null) {
       this.comicService.getComics()
         .subscribe(
